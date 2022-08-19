@@ -18,7 +18,9 @@ const Navbar = () => {
       <h1 className='text-center text-2xl font-bold'>
         Firebase Google Auth & Context
       </h1>
+      <Link to='/'>Home</Link>
       <Link to='/chatroom'>Chatroom</Link>
+      <Link to='/calendar'>Calendar</Link>
       {user?.displayName ? (
         
         <button onClick={handleSignOut}>Logout</button>
